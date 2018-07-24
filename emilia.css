@@ -1,0 +1,32 @@
+.background-image {
+    background-image: url(images/barcelona_guell.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-bar {
+    background-color: rgba(0,0,0, 0.01);
+    display:flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.navigation-items {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#about-list-item, #contact-list-item, #blog-list-item {
+    margin-right: 10px;
+    font-size: medium;
+}
+
+
